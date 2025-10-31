@@ -5,23 +5,21 @@ Design and implement a desktop application for managing a small digital library 
 
 🎯 Learning Objectives (mapped to your topics)
 
-شی‌ءگرایی (OOP): domain model with rich objects and behaviors.
+OOP: domain model with rich objects and behaviors.
 
-کپسوله‌سازی: private attributes, properties, invariants, validation.
+Encapsulation : private attributes, properties, invariants, validation.
 
-انتزاع: abstract base classes (ABC) for Item, repository interfaces.
+Abstraction : abstract base classes (ABC) for Item, repository interfaces.
 
-ارث‌بری: Book, Magazine, DVD inherit from Item.
+Inheritance : Book, Magazine, DVD inherit from Item.
 
-انواع متد: instance, @classmethod, @staticmethod, property methods, magic methods (__repr__, __eq__, ordering), and descriptor example.
+Methods : instance, @classmethod, @staticmethod, property methods, magic methods (__repr__, __eq__, ordering), and descriptor example.
 
-انواع پارامتر/فیلد کلاس: class vars vs instance vars, default/keyword-only, *args/**kwargs, positional-only, typed fields.
+Parameters : class vars vs instance vars, default/keyword-only, *args/**kwargs, positional-only, typed fields.
 
 File Handling: JSON/CSV import-export, logging, config .ini, simple persistence layer.
 
 Best Practices: typing, docstrings, exceptions, SOLID, service layer, repositories, unit tests, code style, small PRs.
-
-فایل‌بندی مناسب پروژه: src/ layout, tests/, data/, docs/.
 
 Tkinter UI: basic CRUD, search, and loan workflow.
 
