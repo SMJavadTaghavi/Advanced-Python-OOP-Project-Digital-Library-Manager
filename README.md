@@ -3,7 +3,7 @@ Design and implement a desktop application for managing a small digital library 
 
 
 
-🎯 Learning Objectives (mapped to your topics)
+## 🎯 Learning Objectives (mapped to your topics)
 
 OOP: domain model with rich objects and behaviors.
 
@@ -25,7 +25,8 @@ Tkinter UI: basic CRUD, search, and loan workflow.
 
 
 
-🧱 Core Domain & OOP Design
+## 🧱 Core Domain & OOP Design
+
 Item Abstraction & Inheritance
 
 Item (ABC): id, title, year, is_available(); encapsulate _available with a property.
@@ -56,7 +57,8 @@ Private fields _available, _loans_count; expose via @property with validation.
 
 Descriptor PositiveInt for year or duration_minutes.
 
-🧩 Persistence & File Handling
+
+## 🧩 Persistence & File Handling
 
 JsonRepository: save/load LibraryState to data/library.json.
 
@@ -66,7 +68,8 @@ config.ini or environment via config.py.
 
 logging to logs/app.log with rotation.
 
-🪟 Tkinter UI (MVP)
+
+## 🪟 Tkinter UI (MVP)
 
 Main window: menu (File/Import CSV, Export JSON, Exit), tabs: Catalog, Members, Loans.
 
@@ -76,7 +79,8 @@ Members tab: CRUD for members; show current loans.
 
 Loans tab: select member & item, Checkout / Return buttons; due-date calculation.
 
-✅ Grading Rubric (100 pts)
+
+##  ✅ Grading Rubric (100 pts)
 
 OOP & Design (25): clean models, ABCs, proper inheritance & polymorphism.
 
@@ -92,7 +96,8 @@ Project Structure & Git (10): src/ layout, meaningful commits, PRs.
 
 UI Functionality (15): Tkinter tabs, CRUD, loan workflow.
 
-🚀 Milestones (Suggested)
+
+## 🚀 Milestones (Suggested)
 
 M1 – Domain Models & Tests (models only, no I/O)
 
